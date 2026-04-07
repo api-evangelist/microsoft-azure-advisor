@@ -1,16 +1,14 @@
 aid: microsoft-azure-advisor
-url: 
-  https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/apis.yml
 apis:
   - aid: microsoft-azure-advisor:rest-api
     name: Azure Advisor REST API
     tags:
-      - Recommendations
-      - Optimization
       - Best Practices
       - Cost Optimization
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      - Optimization
+      - Recommendations
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/advisor/
     properties:
