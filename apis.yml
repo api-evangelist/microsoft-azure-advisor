@@ -36,6 +36,8 @@ apis:
       - Optimization
       - Recommendations
     properties:
+      - url: openapi/microsoft-azure-advisor-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/advisor/
       - type: APIReference
