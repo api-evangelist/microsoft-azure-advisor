@@ -5,7 +5,7 @@ description: >-
   deployments. It analyzes your resource configuration and usage telemetry, then recommends solutions to improve the
   cost effectiveness, performance, reliability, security, and operational excellence of your Azure resources.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Advisor
   - Best Practices
@@ -24,7 +24,7 @@ apis:
       Azure Advisor REST API provides personalized recommendations for optimizing Azure deployments across reliability,
       security, performance, cost, and operational excellence. It supports retrieving recommendations, suppressing
       alerts, and configuring recommendation settings.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/advisor/
     baseURL: https://management.azure.com/
     tags:
