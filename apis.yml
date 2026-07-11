@@ -44,6 +44,10 @@ apis:
       - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/advisor
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-advisor-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-advisor-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-advisor-scopes.yml
   - type: Portal
