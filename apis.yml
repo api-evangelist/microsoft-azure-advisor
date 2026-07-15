@@ -44,6 +44,8 @@ apis:
       - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/advisor
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-advisor-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-advisor-domain-security.yml
   - type: Authentication
