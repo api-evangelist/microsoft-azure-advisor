@@ -5,7 +5,20 @@ description: >-
   deployments. It analyzes your resource configuration and usage telemetry, then recommends solutions to improve the
   cost effectiveness, performance, reliability, security, and operational excellence of your Azure resources.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-advisor.png
 tags:
   - Advisor
   - Best Practices
@@ -18,31 +31,44 @@ created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: microsoft-azure-advisor:rest-api
-    name: Azure Advisor REST API
-    description: >-
-      Azure Advisor REST API provides personalized recommendations for optimizing Azure deployments across reliability,
-      security, performance, cost, and operational excellence. It supports retrieving recommendations, suppressing
-      alerts, and configuring recommendation settings.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/advisor/
-    baseURL: https://management.azure.com/
-    tags:
-      - Best Practices
-      - Cost Optimization
-      - Optimization
-      - Recommendations
-    properties:
-      - url: openapi/microsoft-azure-advisor-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://learn.microsoft.com/en-us/rest/api/advisor/
-      - type: APIReference
-        url: https://learn.microsoft.com/en-us/rest/api/advisor/operation-groups
-      - type: Authentication
-        url: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-vs-authorization
-      - type: SDKs
-        url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/advisor
+- aid: microsoft-azure-advisor:microsoft-azure-advisor-operations-api
+  name: Microsoft Azure Advisor Operations API
+  description: Operations operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/advisor/
+  baseURL: https://management.azure.com/
+  tags:
+  - Operations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-advisor-operations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/advisor/
+  - type: APIReference
+    url: https://learn.microsoft.com/en-us/rest/api/advisor/operation-groups
+  - type: Authentication
+    url: >-
+      https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-vs-authorization
+  - type: SDKs
+    url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/advisor
+- aid: microsoft-azure-advisor:microsoft-azure-advisor-recommendations-api
+  name: Microsoft Azure Advisor Recommendations API
+  description: Recommendations operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/advisor/
+  baseURL: https://management.azure.com/
+  tags:
+  - Recommendations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/advisor/
+  - type: APIReference
+    url: https://learn.microsoft.com/en-us/rest/api/advisor/operation-groups
+  - type: Authentication
+    url: >-
+      https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-vs-authorization
+  - type: SDKs
+    url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/advisor
 common:
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-advisor-agentic-access.yml
