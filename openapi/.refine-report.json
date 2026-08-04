@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-advisor",
+  "sources": [
+    "microsoft-azure-advisor-operations-api-openapi.yml",
+    "microsoft-azure-advisor-recommendations-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-advisor-operations-api-openapi.yml",
+    "microsoft-azure-advisor-recommendations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
