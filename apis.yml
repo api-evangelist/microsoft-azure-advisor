@@ -1,5 +1,6 @@
 aid: microsoft-azure-advisor
 name: Microsoft Azure Advisor
+x-parent: microsoft-azure
 description: >-
   Microsoft Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure
   deployments. It analyzes your resource configuration and usage telemetry, then recommends solutions to improve the
@@ -38,7 +39,7 @@ tags:
   - Microsoft Azure
   - Optimization
   - Recommendations
-url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/apis.yml
+url: https://learn.microsoft.com/en-us/azure/advisor/
 created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.23'
