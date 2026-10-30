@@ -1,4 +1,4 @@
-# Microsoft Azure Advisor (microsoft-azure-advisor)
+# Microsoft Azure Advisor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,65 +66,130 @@
 
 Microsoft Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry, then recommends solutions to improve the cost effectiveness, performance, reliability, security, and operational excellence of your Azure resources.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/apis.yml)
+**Areas:** Advisor · Best Practices · Cost Optimization · Microsoft Azure · Optimization · Recommendations
 
-## Scope
+## Microsoft Azure Advisor on APIs.io
 
-- **Type:** Index
+Everything profiled for Microsoft Azure Advisor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-azure-advisor/](https://apis.io/providers/microsoft-azure-advisor/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Advisor
-- Best Practices
-- Cost Optimization
-- Microsoft Azure
-- Optimization
-- Recommendations
+- [Microsoft Azure Advisor Operations API](https://apis.io/apis/microsoft-azure-advisor/microsoft-azure-advisor-operations-api/) — Operations operations
+- [Microsoft Azure Advisor Recommendations API](https://apis.io/apis/microsoft-azure-advisor/microsoft-azure-advisor-recommendations-api/) — Recommendations operations
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-13
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Azure Advisor REST API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-Azure Advisor REST API provides personalized recommendations for optimizing Azure deployments across reliability, security, performance, cost, and operational excellence. It supports retrieving recommendations, suppressing alerts, and configuring recommendation settings.
+- [Microsoft Azure Advisor Agentic Access](https://apis.io/agentic-access/microsoft-azure-advisor/microsoft-azure-advisor-agentic-access/)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/advisor/](https://learn.microsoft.com/en-us/rest/api/advisor/)
-- **Base URL:** `https://management.azure.com/`
+#### Collections (3)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Best Practices
-- Cost Optimization
-- Optimization
-- Recommendations
+- [Azure Advisor REST API](https://apis.io/collections/microsoft-azure-advisor/open-microsoft-azure-advisor/)
+- [Azure Advisor REST Operations API](https://apis.io/collections/microsoft-azure-advisor/open-microsoft-azure-advisor-operations-api/)
+- [Azure Advisor REST Operations Recommendations API](https://apis.io/collections/microsoft-azure-advisor/open-microsoft-azure-advisor-recommendations-api/)
 
-#### Properties
+#### Security (2)
 
-- [OpenAPI](openapi/microsoft-azure-advisor-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/microsoft-azure-advisor.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-advisor.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/advisor/)
-- [API Reference](https://learn.microsoft.com/en-us/rest/api/advisor/operation-groups)
-- [Authentication](https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-vs-authorization)
-- [SDK](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/advisor)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Microsoft Azure Advisor Authentication](https://apis.io/security/microsoft-azure-advisor/microsoft-azure-advisor-authentication/)
+- [Microsoft Azure Advisor Domain Security](https://apis.io/security/microsoft-azure-advisor/microsoft-azure-advisor-domain-security/)
 
-- [Portal](https://portal.azure.com/)
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Microsoft Azure Advisor Scopes](https://apis.io/scopes/microsoft-azure-advisor/microsoft-azure-advisor-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Microsoft Azure Advisor Plans Pricing](https://apis.io/plans/microsoft-azure-advisor/microsoft-azure-advisor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Microsoft Azure Advisor Rate Limits](https://apis.io/rate-limits/microsoft-azure-advisor/microsoft-azure-advisor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Microsoft Azure Advisor Finops](https://apis.io/finops/microsoft-azure-advisor/microsoft-azure-advisor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://microsoft.com)
 - [Documentation](https://learn.microsoft.com/en-us/azure/advisor/)
 - [Pricing](https://azure.microsoft.com/en-us/pricing/)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
 - [Support](https://support.microsoft.com/)
-- [Status Page](https://status.azure.com/)
-- [GitHub Organization](https://github.com/Azure)
-- [L L Ms Txt](https://portal.azure.com/llms.txt)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/Azure)
+- [Status](https://status.azure.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 44.0** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 80.4 |
+| Contract quality | 44.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 39.5 |
+
+**Agent readiness 19.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-azure-advisor/](https://apis.io/providers/microsoft-azure-advisor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Azure Advisor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-azure-advisor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
